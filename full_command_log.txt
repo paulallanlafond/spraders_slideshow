@@ -1,0 +1,1 @@
+++ /usr/bin/screen -S slideshow -dm bash -c '/usr/bin/feh --verbose --info verbosity --recursive --full-screen --slideshow-delay 20 /media/spraders/SPRADERS/*.{jpg,jpeg,gif,png}'
