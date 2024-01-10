@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Slideshow
+Exec=lxterminal -e "/home/spraders/Desktop/spraders_slideshow.sh"
+Hidden=false
+NoDisplay=false
