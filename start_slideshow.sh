@@ -10,7 +10,7 @@ usb_mount_point=$(echo "$usb_mount_point" | xargs)
 if [ -n "$usb_mount_point" ]; then
     # Run the slideshow command, pointing to the USB drive
     echo "USB drive found:$usb_mount_point"
-    full_command="/usr/bin/screen -S slideshow -dm bash -c '/usr/bin/feh --verbose --info verbosity --recursive --full-screen --slideshow-delay 20 $usb_mount_point/*.{jpg,jpeg,gif,png}'"
+    full_command="/usr/bin/screen -S slideshow -dm bash -c '/usr/bin/feh --verbose --info verbosity --recursive --full-screen --auto-zoom --slideshow-delay 20 $usb_mount_point/*.{jpg,jpeg,gif,png}'"
     eval "$full_command"
     read -p "Starting Slideshow..."
 
