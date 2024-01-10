@@ -2,6 +2,8 @@
 
 set -x
 
+sleep 10
+
 cd /home/spraders/Documents/GitHub/spraders_slideshow
 git pull
 
